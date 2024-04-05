@@ -1,6 +1,9 @@
 const express = require('express');
-const productRoute = require('./routes/productRoute');
 const app = express();
+
+
+const productRoute = require('./routes/productRoute');
+
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
