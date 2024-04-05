@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon start index.js"
+    "start": "npm start index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",
-    "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "express": "^4.19.2"
   }
 }
