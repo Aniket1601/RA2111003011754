@@ -1,5 +1,5 @@
 const express = require('express');
-const companyRoutes = require('./routes/companyRoutes');
+const productRoute = require('./routes/productRoute');
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
@@ -9,4 +9,4 @@ app.listen(7000, () => {
   console.log('Listening on port 7000');
 });
 
-app.use('/', companyRoutes);
+app.use('/', productRoute);
